@@ -3,7 +3,6 @@ TODO: September 16th, 2023
 CS 152 B
 Project 1
 This is a program to simulate a disease using an SIR model
-TODO: Description of what the program lets you do
 '''
 
 import pylab as plt
