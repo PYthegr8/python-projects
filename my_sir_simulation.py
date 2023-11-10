@@ -1,7 +1,5 @@
 '''TODO: Papa Yaw Owusu Nti
 TODO: September 16th, 2023
-CS 152 B
-Project 1
 This is a program to simulate a disease using an SIR model
 '''
 
@@ -10,7 +8,7 @@ import pylab as plt
 def simulate_SIR( S0 , I0 , R0 , n_days , num_spreading_contacts , recovery_time , population_size ):
 	'''This function runs the SIR simulation for n_days given the initial sizes of the S/I/R groups (i.e. S0, I0, R0)
 		and the parameters: num_spreading_contacts and recovery_time.  It returns 3 lists containing 
-		the sizes of S, I and R over time.'''
+		the sizes of S, I, and R over time.'''
 
 	##Initialize the lists we'll use to collect the sizes of S/I/R over time
 	S_list = []
